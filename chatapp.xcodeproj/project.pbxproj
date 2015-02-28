@@ -15,6 +15,9 @@
 		257D87F11AA023C400BB388E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257D87F01AA023C400BB388E /* Images.xcassets */; };
 		257D87F41AA023C400BB388E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257D87F21AA023C400BB388E /* LaunchScreen.xib */; };
 		257D88001AA023C500BB388E /* chatappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D87FF1AA023C500BB388E /* chatappTests.m */; };
+		257D880E1AA0328200BB388E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D880D1AA0328200BB388E /* SettingViewController.m */; };
+		257D88111AA0451900BB388E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D88101AA0451900BB388E /* CustomCell.m */; };
+		257D881A1AA04ACF00BB388E /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D88191AA04ACF00BB388E /* ChatTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		257D87F91AA023C500BB388E /* chatappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257D87FE1AA023C500BB388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257D87FF1AA023C500BB388E /* chatappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatappTests.m; sourceTree = "<group>"; };
+		257D880C1AA0328200BB388E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		257D880D1AA0328200BB388E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		257D880F1AA0451900BB388E /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		257D88101AA0451900BB388E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		257D88181AA04ACF00BB388E /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		257D88191AA04ACF00BB388E /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +94,20 @@
 			isa = PBXGroup;
 			children = (
 				257D87E41AA023C400BB388E /* AppDelegate.h */,
+				257D88181AA04ACF00BB388E /* ChatTableViewController.h */,
+				257D88191AA04ACF00BB388E /* ChatTableViewController.m */,
 				257D87E51AA023C400BB388E /* AppDelegate.m */,
 				257D87E71AA023C400BB388E /* FirstViewController.h */,
 				257D87E81AA023C400BB388E /* FirstViewController.m */,
 				257D87EA1AA023C400BB388E /* SecondViewController.h */,
 				257D87EB1AA023C400BB388E /* SecondViewController.m */,
+				257D880C1AA0328200BB388E /* SettingViewController.h */,
+				257D880D1AA0328200BB388E /* SettingViewController.m */,
 				257D87ED1AA023C400BB388E /* Main.storyboard */,
 				257D87F01AA023C400BB388E /* Images.xcassets */,
 				257D87F21AA023C400BB388E /* LaunchScreen.xib */,
+				257D880F1AA0451900BB388E /* CustomCell.h */,
+				257D88101AA0451900BB388E /* CustomCell.m */,
 				257D87E01AA023C400BB388E /* Supporting Files */,
 			);
 			path = chatapp;
@@ -227,7 +242,10 @@
 				257D87EC1AA023C400BB388E /* SecondViewController.m in Sources */,
 				257D87E61AA023C400BB388E /* AppDelegate.m in Sources */,
 				257D87E91AA023C400BB388E /* FirstViewController.m in Sources */,
+				257D881A1AA04ACF00BB388E /* ChatTableViewController.m in Sources */,
+				257D88111AA0451900BB388E /* CustomCell.m in Sources */,
 				257D87E31AA023C400BB388E /* main.m in Sources */,
+				257D880E1AA0328200BB388E /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
