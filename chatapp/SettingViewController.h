@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class PFObject;
+
 @interface SettingViewController : UIViewController
+
+
+@property (strong, nonatomic) PFObject *roomName;
+    
 
 @end
