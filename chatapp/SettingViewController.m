@@ -35,13 +35,15 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     NSLog(@"%d",row);
+    //TODO:値を一時的に保存する
    
-    PFObject *object= [PFObject objectWithClassName:@"Object"];
-//    object[@"kazu"] = self.ninzu.row;
-    [object saveInBackground];
+//    PFObject *object= [PFObject objectWithClassName:@"Object"];
+//    object[@"kazu"] = [@"%@",row];
+//    [object saveInBackground];
 }
 
 -(IBAction)doneButtonTapped{
+    //TODO:一時的に保存した値を使う
     PFObject *roomName;
     if (self.roomName) {
         roomName = self.roomName;
