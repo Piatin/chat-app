@@ -9,7 +9,7 @@
 #import "ChatTableViewController.h"
 #import "CustomCell.h"
 
-@interface ChatTableViewController ()<UITextViewDelegate>{
+@interface ChatTableViewController ()<UITableViewDataSource,UITextViewDelegate>{
     NSMutableArray *_objects;
     NSArray *_textArray;    // 追加
     CustomCell *_stubCell;  // 追加
@@ -62,23 +62,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
-    
     _stubCell = [self.tableView dequeueReusableCellWithIdentifier:@"Cell"]; // 追加
     
     // 追加
     // 文字列の配列の作成
-    _textArray = @[
-                   @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales diam sed turpis mattis dictum. In laoreet porta eleifend. Ut eu nibh sit amet est iaculis faucibus.",
-                   @"initWithBitmapDataPlanes:pixelsWide:pixelsHigh:bitsPerSample:samplesPerPixel:hasAlpha:isPlanar:colorSpaceName:bitmapFormat:bytesPerRow:bitsPerPixel:",
-                   @"祇辻飴葛蛸鯖鰯噌庖箸",
-                   @"Nam in vehicula mi.",
-                   @"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-                   @"あのイーハトーヴォの\nすきとおった風、\n夏でも底に冷たさをもつ青いそら、\nうつくしい森で飾られたモーリオ市、\n郊外のぎらぎらひかる草の波。",
-                   ];
-    
-     _textView.delegate = self;
+    _textView.delegate = self;
 }
 
 

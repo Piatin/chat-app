@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+    IBOutlet UILabel *roomLabel;
+    IBOutlet UILabel *kazuLabel;
+    IBOutlet UILabel *nameLabel;
+}
 
 
 @end

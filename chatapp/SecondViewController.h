@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class PFObject;
 @interface SecondViewController : UIViewController
-
-
+   
+@property(strong,nonatomic) PFObject *user;
 @end
 

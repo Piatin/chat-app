@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250F4B361AA1D69D00DE7853 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250F4B351AA1D69D00DE7853 /* QuartzCore.framework */; };
+		250F4B391AA1DBE400DE7853 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F4B381AA1DBE400DE7853 /* MainViewController.m */; };
+		250F4B3B1AA3E8BD00DE7853 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250F4B3A1AA3E8BD00DE7853 /* StoreKit.framework */; };
+		250F4B3D1AA3E8E400DE7853 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 250F4B3C1AA3E8E400DE7853 /* libz.dylib */; };
+		250F4B3F1AA3E8F000DE7853 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 250F4B3E1AA3E8F000DE7853 /* libsqlite3.dylib */; };
+		250F4B411AA3EF0A00DE7853 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250F4B401AA3EF0A00DE7853 /* Bolts.framework */; };
 		257D87E31AA023C400BB388E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D87E21AA023C400BB388E /* main.m */; };
 		257D87E61AA023C400BB388E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D87E51AA023C400BB388E /* AppDelegate.m */; };
 		257D87E91AA023C400BB388E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D87E81AA023C400BB388E /* FirstViewController.m */; };
@@ -18,6 +24,14 @@
 		257D880E1AA0328200BB388E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D880D1AA0328200BB388E /* SettingViewController.m */; };
 		257D88111AA0451900BB388E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D88101AA0451900BB388E /* CustomCell.m */; };
 		257D881A1AA04ACF00BB388E /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D88191AA04ACF00BB388E /* ChatTableViewController.m */; };
+		258E01A41AA15D8D00C63737 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E01A31AA15D8D00C63737 /* TestViewController.m */; };
+		258E01A61AA169EC00C63737 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01A51AA169EC00C63737 /* Parse.framework */; };
+		258E01A81AA16B6D00C63737 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01A71AA16B6D00C63737 /* AudioToolbox.framework */; };
+		258E01AA1AA16B7900C63737 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01A91AA16B7900C63737 /* CFNetwork.framework */; };
+		258E01AC1AA16B8500C63737 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01AB1AA16B8500C63737 /* SystemConfiguration.framework */; };
+		258E01AE1AA16B9300C63737 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01AD1AA16B9300C63737 /* MobileCoreServices.framework */; };
+		258E01B01AA16BA200C63737 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01AF1AA16BA200C63737 /* CoreGraphics.framework */; };
+		258E01B41AA16BC900C63737 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E01B31AA16BC900C63737 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		250F4B351AA1D69D00DE7853 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		250F4B371AA1DBE400DE7853 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		250F4B381AA1DBE400DE7853 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		250F4B3A1AA3E8BD00DE7853 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		250F4B3C1AA3E8E400DE7853 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		250F4B3E1AA3E8F000DE7853 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		250F4B401AA3EF0A00DE7853 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		257D87DD1AA023C400BB388E /* chatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257D87E11AA023C400BB388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257D87E21AA023C400BB388E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +73,16 @@
 		257D88101AA0451900BB388E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		257D88181AA04ACF00BB388E /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
 		257D88191AA04ACF00BB388E /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		258E01A21AA15D8D00C63737 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		258E01A31AA15D8D00C63737 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		258E01A51AA169EC00C63737 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		258E01A71AA16B6D00C63737 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		258E01A91AA16B7900C63737 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		258E01AB1AA16B8500C63737 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		258E01AD1AA16B9300C63737 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		258E01AF1AA16BA200C63737 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		258E01B11AA16BB200C63737 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		258E01B31AA16BC900C63737 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +90,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250F4B3F1AA3E8F000DE7853 /* libsqlite3.dylib in Frameworks */,
+				250F4B3D1AA3E8E400DE7853 /* libz.dylib in Frameworks */,
+				250F4B3B1AA3E8BD00DE7853 /* StoreKit.framework in Frameworks */,
+				250F4B411AA3EF0A00DE7853 /* Bolts.framework in Frameworks */,
+				250F4B361AA1D69D00DE7853 /* QuartzCore.framework in Frameworks */,
+				258E01B41AA16BC900C63737 /* Security.framework in Frameworks */,
+				258E01B01AA16BA200C63737 /* CoreGraphics.framework in Frameworks */,
+				258E01AE1AA16B9300C63737 /* MobileCoreServices.framework in Frameworks */,
+				258E01AC1AA16B8500C63737 /* SystemConfiguration.framework in Frameworks */,
+				258E01AA1AA16B7900C63737 /* CFNetwork.framework in Frameworks */,
+				258E01A81AA16B6D00C63737 /* AudioToolbox.framework in Frameworks */,
+				258E01A61AA169EC00C63737 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +121,19 @@
 				257D87DF1AA023C400BB388E /* chatapp */,
 				257D87FC1AA023C500BB388E /* chatappTests */,
 				257D87DE1AA023C400BB388E /* Products */,
+				250F4B401AA3EF0A00DE7853 /* Bolts.framework */,
+				250F4B3E1AA3E8F000DE7853 /* libsqlite3.dylib */,
+				250F4B3C1AA3E8E400DE7853 /* libz.dylib */,
+				250F4B3A1AA3E8BD00DE7853 /* StoreKit.framework */,
+				250F4B351AA1D69D00DE7853 /* QuartzCore.framework */,
+				258E01B31AA16BC900C63737 /* Security.framework */,
+				258E01B11AA16BB200C63737 /* libz.1.1.3.dylib */,
+				258E01AF1AA16BA200C63737 /* CoreGraphics.framework */,
+				258E01AD1AA16B9300C63737 /* MobileCoreServices.framework */,
+				258E01AB1AA16B8500C63737 /* SystemConfiguration.framework */,
+				258E01A91AA16B7900C63737 /* CFNetwork.framework */,
+				258E01A71AA16B6D00C63737 /* AudioToolbox.framework */,
+				258E01A51AA169EC00C63737 /* Parse.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,15 +150,19 @@
 			isa = PBXGroup;
 			children = (
 				257D87E41AA023C400BB388E /* AppDelegate.h */,
+				257D87E51AA023C400BB388E /* AppDelegate.m */,
 				257D88181AA04ACF00BB388E /* ChatTableViewController.h */,
 				257D88191AA04ACF00BB388E /* ChatTableViewController.m */,
-				257D87E51AA023C400BB388E /* AppDelegate.m */,
+				258E01A21AA15D8D00C63737 /* TestViewController.h */,
+				258E01A31AA15D8D00C63737 /* TestViewController.m */,
 				257D87E71AA023C400BB388E /* FirstViewController.h */,
 				257D87E81AA023C400BB388E /* FirstViewController.m */,
 				257D87EA1AA023C400BB388E /* SecondViewController.h */,
 				257D87EB1AA023C400BB388E /* SecondViewController.m */,
 				257D880C1AA0328200BB388E /* SettingViewController.h */,
 				257D880D1AA0328200BB388E /* SettingViewController.m */,
+				250F4B371AA1DBE400DE7853 /* MainViewController.h */,
+				250F4B381AA1DBE400DE7853 /* MainViewController.m */,
 				257D87ED1AA023C400BB388E /* Main.storyboard */,
 				257D87F01AA023C400BB388E /* Images.xcassets */,
 				257D87F21AA023C400BB388E /* LaunchScreen.xib */,
@@ -243,8 +303,10 @@
 				257D87E61AA023C400BB388E /* AppDelegate.m in Sources */,
 				257D87E91AA023C400BB388E /* FirstViewController.m in Sources */,
 				257D881A1AA04ACF00BB388E /* ChatTableViewController.m in Sources */,
+				250F4B391AA1DBE400DE7853 /* MainViewController.m in Sources */,
 				257D88111AA0451900BB388E /* CustomCell.m in Sources */,
 				257D87E31AA023C400BB388E /* main.m in Sources */,
+				258E01A41AA15D8D00C63737 /* TestViewController.m in Sources */,
 				257D880E1AA0328200BB388E /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = chatapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = chatapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +506,7 @@
 				257D88051AA023C500BB388E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		257D88061AA023C500BB388E /* Build configuration list for PBXNativeTarget "chatappTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +515,7 @@
 				257D88081AA023C500BB388E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
