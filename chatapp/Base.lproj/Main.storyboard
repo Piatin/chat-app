@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8rJ-Kc-sve">
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
     <dependencies>
         <deployment version="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
+<<<<<<< HEAD
         <!--Main View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="MainViewController" sceneMemberID="viewController">
+=======
+        <!--Group View-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="GroupView" sceneMemberID="viewController">
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -47,9 +58,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="oHC-De-9wr" kind="push" id="gSk-z9-kET"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -61,17 +69,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="mostViewed" id="acW-dT-cKf"/>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="kO4-vt-BMA"/>
+=======
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="719" y="-323"/>
+=======
+            <point key="canvasLocation" x="868" y="-315"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
         </scene>
         <!--Title-->
         <scene sceneID="UhJ-43-Ve9">
             <objects>
+<<<<<<< HEAD
                 <viewController id="1CY-NE-z4F" customClass="ChatTableViewController" sceneMemberID="viewController">
+=======
+                <viewController id="1CY-NE-z4F" customClass="ChatViewController" sceneMemberID="viewController">
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Na-MA-9Kh"/>
                         <viewControllerLayoutGuide type="bottom" id="QyQ-ZU-vXf"/>
@@ -131,16 +150,21 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="qDN-Ke-SJH">
+<<<<<<< HEAD
                         <barButtonItem key="leftBarButtonItem" title="退出" id="VoC-zi-nBQ">
                             <connections>
                                 <segue destination="oHC-De-9wr" kind="push" id="EGh-Te-jaj"/>
                             </connections>
                         </barButtonItem>
+=======
+                        <barButtonItem key="leftBarButtonItem" title="退出" id="VoC-zi-nBQ"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gG6-NF-ib0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1677" y="-329"/>
         </scene>
         <!--Navigation Controller-->
@@ -178,6 +202,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFy-wK-MZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1263" y="-323"/>
+=======
+            <point key="canvasLocation" x="1307" y="-323"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
         </scene>
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
@@ -200,8 +227,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <action selector="ketteiTapped" destination="8rJ-Kc-sve" eventType="touchUpInside" id="BUq-nO-RQf"/>
                                     <segue destination="gLG-LO-cnI" kind="show" id="nEI-b8-Swg"/>
+=======
+                                    <action selector="actionSave:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="kbT-rR-gKi"/>
+                                    <segue destination="gLG-LO-cnI" kind="modal" id="NIb-Dd-cby"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qFd-jq-Gxh">
@@ -217,12 +249,17 @@
                         </connections>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="cPa-gy-q4n"/>
+<<<<<<< HEAD
+=======
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                     <connections>
                         <outlet property="kettei" destination="B8Z-Cu-Lhu" id="mVp-MR-0DO"/>
                         <outlet property="nameField" destination="qFd-jq-Gxh" id="BtS-aK-6U9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+<<<<<<< HEAD
                 <tapGestureRecognizer id="hZh-yA-o1k">
                     <connections>
                         <action selector="onTap" destination="8rJ-Kc-sve" id="lcL-MD-gsk"/>
@@ -230,6 +267,11 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="554" y="364"/>
+=======
+                <tapGestureRecognizer id="hZh-yA-o1k"/>
+            </objects>
+            <point key="canvasLocation" x="882" y="400"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="1SQ-h9-Hg8">
@@ -255,11 +297,21 @@
                                 </state>
                                 <connections>
                                     <action selector="doneButtonTapped" destination="gLG-LO-cnI" eventType="touchUpInside" id="Cdv-Ql-rOf"/>
+<<<<<<< HEAD
                                     <segue destination="VDe-Ii-Rea" kind="modal" id="iqU-8a-668"/>
+=======
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lps-ZA-YGH">
                                 <rect key="frame" x="70" y="231" width="180" height="162"/>
+<<<<<<< HEAD
+=======
+                                <connections>
+                                    <outlet property="dataSource" destination="gLG-LO-cnI" id="Dpt-IN-ZGr"/>
+                                    <outlet property="delegate" destination="gLG-LO-cnI" id="CjK-Tg-Q6V"/>
+                                </connections>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                             </pickerView>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pr1-Ho-QCx">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
@@ -273,6 +325,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+<<<<<<< HEAD
                     <connections>
                         <outlet property="doneButton" destination="WrR-Uf-Ol6" id="jlg-cb-aNS"/>
                         <outlet property="ninzu" destination="Lps-ZA-YGH" id="9mJ-Gh-zgY"/>
@@ -297,16 +350,25 @@
                     <connections>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="77U-Rh-ot8"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="OQP-Cl-EW0"/>
+=======
+                    <connections>
+                        <outlet property="doneButton" destination="WrR-Uf-Ol6" id="jlg-cb-aNS"/>
+                        <outlet property="ninzu" destination="Lps-ZA-YGH" id="9mJ-Gh-zgY"/>
+                        <outlet property="roomNameField" destination="pKi-Cc-c8n" id="3hh-pk-CHE"/>
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
                     </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MAK-bA-5IO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="1326" y="394"/>
         </scene>
     </scenes>
+<<<<<<< HEAD
     <inferredMetricsTieBreakers>
         <segue reference="KkC-RT-MJ9"/>
         <segue reference="gSk-z9-kET"/>
         <segue reference="UOU-yN-jbh"/>
     </inferredMetricsTieBreakers>
+=======
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
 </document>

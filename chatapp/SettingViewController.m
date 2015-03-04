@@ -35,6 +35,7 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     NSLog(@"%d",row);
+<<<<<<< HEAD
    
     PFObject *object= [PFObject objectWithClassName:@"Object"];
 //    object[@"kazu"] = self.ninzu.row;
@@ -42,6 +43,17 @@
 }
 
 -(IBAction)doneButtonTapped{
+=======
+    //TODO:値を一時的に保存する
+   
+//    PFObject *object= [PFObject objectWithClassName:@"Object"];
+//    object[@"kazu"] = [@"%@",row];
+//    [object saveInBackground];
+}
+
+-(IBAction)doneButtonTapped{
+    //TODO:一時的に保存した値を使う
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
     PFObject *roomName;
     if (self.roomName) {
         roomName = self.roomName;
@@ -62,7 +74,11 @@
             return;
         }
         
+<<<<<<< HEAD
         //[self dismissViewControllerAnimated:YES completion:NULL];
+=======
+        [self dismissViewControllerAnimated:YES completion:NULL];
+>>>>>>> 66ec8b065dab862a4aee3ae30ff7c6f3a466062b
     }];
 
 }
